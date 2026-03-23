@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Order</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .hidden {
+          display: none;
+        }
+      </style>
+</head>
+<body>
+    <header class="header">
+
+        <a href="order1.html" class="back-btn">  <i class="fa-solid fa-arrow-left"></i> Back</a>
+
+        <a href="#" class="logo">
+            <img src="tham_(Website).png" alt="dhalia negera logo">
+        </a>
+
+        <button class="menu-btn">Menu</button>
+
+    </header>
+
+    <div class="progress-container">
+        <div class="step active">
+            <div class="circle">1</div>
+            <p>SHOPPING CART</p>
+        </div>
+        <div class="progress-line"></div>
+        <div class="step active">
+            <div class="circle">2</div>
+            <p>CHECKOUT</p>
+        </div>
+        <div class="progress-line"></div>
+        <div class="step" id="step3">
+            <div class="circle">3</div>
+            <p>ORDER COMPLETE</p>
+        </div>
+    </div>
+
+<div id="checkoutContent">
+    <div class="delivery-container">
+        <h3>Delivery Type</h3>
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="delivery-method" id="pickup" value="pickup" checked >
+                PICKUP AT OUTLET
+            </label>
+            <label>
+                <input type="radio" name="delivery-method" id="delivery" value="delivery">
+                DELIVERY TO AN ADDRESS
+            </label>
+        </div>
+
+        <div class="pickup-info">
+            <p><strong>Kindly Note,</strong> you only can pick up from the following outlets from 12PM – 1PM.</p>
+            <ul>
+                <li>Rajagiriya, Nawala, Pagoda (Chatham Street), Templers Road, Finlay (Vauxhall Street), Colpetty, One Galle Face Mall, Kottawa, Pita Kotte</li>
+            </ul>
+            <p>If you wish to pick up after 3PM, you can pick up from Delkanda and Boralesgamuwa.</p>
+        </div>
+    </div>
+
+<div class="billing">
+        <h3>Billing Details</h3>
+    <form class="billing-container">
+        <div>
+            <label for="firstName">FIRST NAME</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <span class="error"></span>
+        </div>
+        <div>
+            <label for="lastName">LAST NAME</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <span class="error"></span>
+        </div>
+        <div>
+            <label for="phone">PHONE</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error"></span>
+        </div>
+        <div>
+            <label for="email">EMAIL ADDRESS</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error"></span>
+        </div>
+        <label for="country">CITY / REGION</label>
+            <select id="country" name="country">
+                <option value="Sri Lanka">Sri Lanka</option required>
+                <!-- Add other countries as needed -->
+            </select>
+            <span class="error"></span>
+        
+        <div id="remarks" class="hidden">
+            <label for="specialremarks" >Special Remarks - We'll take every measure to fulfill your special request (optional)</label>
+            <textarea id="specialremarks" name="specialremarks"></textarea>
+        </div>
+        <span class="error"></span>
+    </form>
+</div>  
+
+<div class="ordersummary-container">
+<h2>Order Summary</h2>
+    <div id="order-summary"></div>
+
+    <h3 id="subtotal"></h3>
+    <h3 id="service-charge"></h3>
+    <h3 id="total"></h3>
+
+</div>
+
+<!-- Delivery Section -->
+<div id="delivery-details" class="hidden">
+    <h2>Delivery Details</h2>
+    <div class="copy-billing">
+        <label >
+            <input type="checkbox" id="copyBilling" > Same as billing details
+        </label>
+    </div>
+    
+    <form class="delivery-form">
+        <div class="form-name">
+            <label for="deliveryFirstName">First Name *</label>
+            <input type="text" id="deliveryFirstName" required>
+            <span class="error"></span>
+        </div>
+        <div class="form-name">
+            <label for="deliveryLastName">Last Name *</label>
+            <input type="text" id="deliveryLastName" required>
+            <span class="error"></span>
+        </div>
+        <div class="form-group">
+            <label for="deliveryPhone">Phone *</label>
+            <input type="tel" id="deliveryPhone" required>
+            <span class="error"></span>
+            
+        </div>
+        <div class="form-group">
+            <label for="deliveryEmail">Email Address</label>
+            <input type="text"id="deliveryEmail" required >
+            <span class="error"></span>
+        </div>
+        <div class="form-group">
+            <label for="streetAddress">Street Address *</label>
+            <input id="streetAddress" name="streetAddress"type="text" required>
+            <span class="error"></span>
+        </div>
+        <div class="form-group">
+            <label for="townCity">Town / City *</label>
+            <select id="townCity" name="townCity" required>
+                <option>Please Select</option>
+                <option value="Colombo">Colombo</option>
+                <option value="Kandy">Kandy</option>
+                <option value="Galle">Kandy</option>
+            </select>
+            <span class="error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="deliveryNote">Delivery Note (Optional)</label>
+            <textarea  id="deliveryNote" name="deliveryNote"></textarea>
+            <span class="error"></span>
+        </div>
+        <div class="form-group">
+            <label for="specialRemarks">Special Remarks (Optional)</label>
+            <textarea id="specialRemarks" name="specialRemarks"></textarea>
+            <span class="error"></span>
+        </div>
+        
+    </form>
+    
+    
+</div>
+
+
+<div class="pick-click">
+<div class="pickup-container" class="hidden">
+    <h2>When Would You Like to Recieve Your Order?</h2>
+    <input type="date" id="date" name="date" title="Enter date">
+    <span class="error"></span>
+    
+    <input type="time" id="time" name="time" title="Enter time">
+    <span class="error"></span>
+
+</div>
+</div>
+
+
+
+<div class="pay-container">
+    <h3>How would you like to pay?</h3>
+    <div class="option">
+        <input type="radio" id="pay-online" name="payment-method" checked>
+        <label for="pay-online">Pay Online</label>
+        <input type="radio" id="pay-delivery" name="payment-method">
+        <label for="pay-delivery">Pay On Pickup/Delivery</label>
+    </div>
+    <div class="card-options">
+    <div class="card-option" onclick="selectCard('visa')">
+        <input type="radio" name="card" id="visa">
+        <label for="visa">VISA/MASTER</label>
+        <img src="page/card.png" alt="VISA/MASTER">
+    </div>
+
+    <div class="card-option" onclick="selectCard('amex')">
+        <input type="radio" name="card" id="amex" checked>
+        <label for="amex">AMEX</label>
+        <img src="page/amex.png" alt="AMEX">
+    </div>
+    </div>
+
+    <div class="terms">
+        <input type="checkbox" id="terms" checked>
+        <label for="terms">I have read and agreed to the <a href="#">Terms and Conditions</a>.</label>
+    </div>
+    <span class="error" id="terms-error" style="color: red; display: none;">Please agree to the Terms and Conditions.</span>
+    <button id="placeOrderBtn">Place your order  </button>
+</div>
+</div>
+</div>
+
+<div id="success-message" class="success-box hidden">
+    <h2> Order Placed Successfully!</h2>
+    <p>Thank you for your purchase. Your order has been placed and is being processed.</p>
+  </div>
+  
+
+
+
+<footer>
+        <div class="footer-container">
+                <a href="https://www.facebook.com" aria-label="go to facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com" aria-label="go to instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://web.whatsapp.com" aria-label="go to whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2025 Dhalia Negera. All RIGHTS RESERVED.</p>
+
+        </div>
+</footer>
+<script src="form.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<blogs>
+  <blog>
+    <id>1</id>
+    <title>Secrets of the Wok: Stir-Frying with Fire and Flavor</title>
+    <image>blog/card-1.jpg</image>
+    <date>February 12, 2021</date>
+    <content>
+      <![CDATA[
+        <h3>What do you need to prepare a home-made burger?</h3>
+        <p>Creating the perfect burger...</p>
+        <h3>What are the right ingredients to make it delicious?</h3>
+        <p>Ingredients and techniques that...</p>
+      ]]>
+    </content>
+  </blog>
+
+  <blog>
+    <id>2</id>
+    <title>Mastering the Five Flavors of Asia: Sweet, Sour, Salty, Bitter, and Umami</title>
+    <image>blog/card-2.jpg</image>
+    <date>July 23, 2022</date>
+    <content>
+      <![CDATA[
+        <h3>What do you need to prepare a home-made burger?</h3>
+        <p>Creating the perfect burger...</p>
+        <h3>What are the right ingredients to make it delicious?</h3>
+        <p>Ingredients and techniques that...</p>
+      ]]>
+    </content>
+  </blog>
+
+  <blog>
+    <id>3</id>
+    <title>Rice Beyond Basics: How Asia’s Staple Grain Becomes a Culinary Art</title>
+    <image>blog/card-3.jpg</image>
+    <date>October 5, 2020</date>
+  </blog>
+
+  <blog>
+    <id>4</id>
+    <title>From the Streets of Bangkok: Thai Dishes That Tell a Story</title>
+    <image>blog/card-4.jpg</image>
+    <date>March 18, 2023</date>
+  </blog>
+
+  <blog>
+    <id>5</id>
+    <title>Dim Sum Diaries: Small Bites with Big Traditions</title>
+    <image>blog/card-5.jpg</image>
+    <date> November 29, 2019</date>
+  </blog>
+
+  <blog>
+    <id>6</id>
+    <title>Tea Time Traditions: A Journey Through Asian Tea Culture</title>
+    <image>blog/card-6.jpg</image>
+    <date>May 7, 2021</date>
+  </blog>
+
+  <blog>
+    <id>7</id>
+    <title>Rolling Perfection: How We Craft Authentic Sushi Rolls</title>
+    <image>blog/card-7.jpg</image>
+    <date>January 16, 2022</date>
+  </blog>
+
+  <blog>
+    <id>8</id>
+    <title>The Soul of Korean BBQ: A Sizzling Cultural Experience</title>
+    <image>blog/card-8.jpg</image>
+    <date>August 3, 2020</date>
+  </blog>
+
+  <blog>
+    <id>9</id>
+    <title>Tempura Tactics: The Crispy Science Behind Japan’s Favorite Snack</title>
+    <image>blog/card-9.jpg</image>
+    <date>September 21, 2022</date>
+  </blog>
+
+  <blog>
+    <id>10</id>
+    <title>Bento Box Beauty: The Art of Japanese Food Presentation</title>
+    <image>blog/card-10.jpg</image>
+    <date>June 10, 2021</date>
+  </blog>
+
+  <blog>
+    <id>11</id>
+    <title>Pho Real: Uncovering the Layers of Vietnam’s National Soup</title>
+    <image>blog/card-11.jpg</image>
+    <date>December 4, 2023</date>
+  </blog>
+
+  <blog>
+    <id>12</id>
+    <title>Miso Hungry: The Fermented Flavors That Power Japanese Cuisine</title>
+    <image>blog/card-12.jpg</image>
+    <date>April 2, 2022</date>
+  </blog>
+  
+</blogs>

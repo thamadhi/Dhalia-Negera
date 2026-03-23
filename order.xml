@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+     <!--appetizers-->
+    <item>
+        <id>1</id>
+        <name>Peking Duck Pancakes</name>
+        <price>2500</price>
+        <image>appeterizers/peking_duck_pancakes.png</image>
+        <ingredients>Crispy duck, hoisin sauce, and cucumber wrapped in thin pancakes.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>2</id>
+        <name>Dim Sum Platter</name>
+        <price>2500</price>
+        <image>appeterizers/Dim_Sum_dumplings.jpg</image>
+        <ingredients>A mix of siu mai, har gow, and xiao long bao with dipping sauces.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>3</id>
+        <name>A5 Wagyu Tataki</name>
+        <price>2500</price>
+        <image>appeterizers/A5_wagyu.jpg</image>
+        <ingredients>Lightly seared premium wagyu with ponzu and truffle oil.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Lobster Tempura</name>
+        <price>3000</price>
+        <image>appeterizers/lobster_tempura.jpg</image>
+        <ingredients>Delicate lobster pieces battered and fried, served with yuzu aioli.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Foie Gras Sushi</name>
+        <price>2500</price>
+        <image>appeterizers/foie_grass.jpg</image>
+        <ingredients>Luxurious foie gras on sushi rice, caramelized with a torch.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>6</id>
+        <name>Spicy Tuna Tartare on Crispy Rice</name>
+        <price>1800</price>
+        <image>appeterizers/spicy_tuna.jpg</image>
+        <ingredients>Tuna tartare on crunchy rice with spicy mayo.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>7</id>
+        <name>Vietnamese Fresh Spring Rolls</name>
+        <price>1500</price>
+        <image>appeterizers/vietnamese_roll.jpg</image>
+        <ingredients>Rice paper rolls with shrimp, herbs, and peanut dipping sauce.</ingredients>
+        <type>appetizers</type>
+    </item>
+    <item>
+        <id>8</id>
+        <name>Miso Black Cod Skewers</name>
+        <price>2500</price>
+        <image>appeterizers/cod_skewer.jpg</image>
+        <ingredients>Buttery black cod marinated in miso, grilled to perfection.</ingredients>
+        <type>appetizers</type>
+    </item>
+    
+    <!--popular-->
+    <item>
+        <id>9</id>
+        <name>Beef Bulgogi</name>
+        <price>2000</price>
+        <image>popular/Beef_Bulgogi.jpg</image>
+        <ingredients>Sweet and savory marinated beef, grilled to perfection.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>10</id>
+        <name>Char Siu BBQ Pork</name>
+        <price>2500</price>
+        <image>popular/Char_Siu.jpg</image>
+        <ingredients>Cantonese-style roasted pork with honey glaze.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>11</id>
+        <name>Kung Pao Chicken</name>
+        <price>2200</price>
+        <image>popular/kung_pao.jpg</image>
+        <ingredients>Spicy stir-fried chicken with peanuts and dried chilies.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>12</id>
+        <name>Malaysian Laksa</name>
+        <price>2000</price>
+        <image>popular/Malaysian_Laksa.jpg</image>
+        <ingredients>Spicy coconut noodle soup with seafood.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>13</id>
+        <name>Pad Thai with Jumbo Prawns</name>
+        <price>2500</price>
+        <image>popular/pad_thai.jpg</image>
+        <ingredients>Classic Thai noodles with tamarind sauce.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>14</id>
+        <name>Teriyaki Salmon</name>
+        <price>3500</price>
+        <image>popular/Teriyaki_Salmon.jpg</image>
+        <ingredients>Grilled salmon with teriyaki glaze and sesame seeds.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>15</id>
+        <name>Tonkotsu Ramen</name>
+        <price>2500</price>
+        <image>popular/Tonkotsu_Ramen.jpg</image>
+        <ingredients> Rich, creamy pork broth ramen with chashu.</ingredients>
+        <type>popular</type>
+    </item>
+    <item>
+        <id>16</id>
+        <name>Vietnamese Hainanese</name>
+        <price>2500</price>
+        <image>popular/Vietnamese_Hainanese.jpg</image>
+        <ingredients>Tender chicken with fragrant rice and dipping sauces.</ingredients>
+        <type>popular</type>
+    </item>
+
+    <!--mains-->
+    <item>
+        <id>17</id>
+        <name>Sichuan Chili Lobster</name>
+        <price>4500</price>
+        <image>mains/chilli_lobster.jpg</image>
+        <ingredients>Lobster cooked in a numbing Sichuan peppercorn sauce.</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>18</id>
+        <name>Japchae</name>
+        <price>3500</price>
+        <image>mains/Japchae.jpg</image>
+        <ingredients> A Korean stir-fried glass noodle dish made with  marinated beef.</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>19</id>
+        <name>Kalbi</name>
+        <price>3500</price>
+        <image>mains/Kalbi _ Korean.jpg</image>
+        <ingredients>Grilled short ribs marinated in a rich soy-garlic sauce.</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>20</id>
+        <name>Singapore Chili Crab</name>
+        <price>4000</price>
+        <image>mains/Singapore_Chill_Crab.jpg</image>
+        <ingredients>Sweet and spicy crab dish with fried mantou buns.</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>21</id>
+        <name>Sushi And Sashimi Omakase</name>
+        <price>5500</price>
+        <image>mains/sushi.jpg</image>
+        <ingredients>Chef’s choice of premium sushi and sashimi.</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>22</id>
+        <name>Thai Green Curry</name>
+        <price>2500</price>
+        <image>mains/thai_green_curry.jpg</image>
+        <ingredients>Creamy coconut curry with aromatic spices</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>23</id>
+        <name>Truffle Fried Rice Caviar </name>
+        <price>3500</price>
+        <image>mains/truffle_fried_rice.jpg</image>
+        <ingredients>Luxurious fried rice infused with truffle oil.</ingredients>
+        <type>mains</type>
+    </item>
+    <item>
+        <id>24</id>
+        <name>Vietnames Shaking Beef</name>
+        <price>2500</price>
+        <image>mains/Vietnames_Shaking.jpg</image>
+        <ingredients>Vietnamese dish features tender beef cubes that are marinated and stir-fried.</ingredients>
+        <type>mains</type>
+    </item>
+
+    <!--Drinks-->
+    <item>
+        <id>25</id>
+        <name>Lychee Mojito</name>
+        <price>1500</price>
+        <image>drinks/Granatapfel_LychEe_Mojito.jpg</image>
+        <ingredients>Lychee, mint, and rum with a refreshing twist.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>26</id>
+        <name>Jasmine Honey Tea</name>
+        <price>500</price>
+        <image>drinks/Jasmine_tea with_honey.jpg</image>
+        <ingredients>Floral jasmine tea with honey and lemon.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>27</id>
+        <name>Matcha Martini</name>
+        <price>1800</price>
+        <image>drinks/Matcha_Martini.jpg</image>
+        <ingredients>A fusion of matcha and vodka with a creamy finish.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>28</id>
+        <name>Sake Sangria</name>
+        <price>1500</price>
+        <image>drinks/SAKE _SANGRIA.jpg</image>
+        <ingredients>A mix of sake, fruits, and citrus.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>29</id>
+        <name>Thai Iced Tea</name>
+        <price>800</price>
+        <image>drinks/thai_icetea.jpg</image>
+        <ingredients>Sweet, creamy, and fragrant Thai milk tea.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>30</id>
+        <name>Soju Watermelon Punch</name>
+        <price>1800</price>
+        <image>drinks/watermelon_soju.jpg</image>
+        <ingredients>Refreshing soju cocktail in a watermelon bowl.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>31</id>
+        <name>Yuzu Spritz</name>
+        <price>1800</price>
+        <image>drinks/yuzu_spritz.jpg</image>
+        <ingredients>Sparkling yuzu with prosecco and elderflower.</ingredients>
+        <type>drinks</type>
+    </item>
+    <item>
+        <id>32</id>
+        <name>lemon Mint</name>
+        <price>800</price>
+        <image>drinks/lemon_mint.jpg</image>
+        <ingredients>A refreshing citrusy blend of lemon and mint, served chilled for a cool, zesty boost.</ingredients>
+        <type>drinks</type>
+    </item>
+
+    <!--Desserts-->
+    <item>
+        <id>33</id>
+        <name>Miso Caramel Pudding</name>
+        <price>1200</price>
+        <image>desserts/custard.jpg</image>
+        <ingredients>Creamy pudding with a salted miso caramel topping.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>34</id>
+        <name>Japanese Cheesecake</name>
+        <price>1500</price>
+        <image>desserts/japanese_cheesecake.jpg</image>
+        <ingredients>Light and fluffy cotton cheesecake topped with berries and honey.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>35</id>
+        <name>Thai Mango Sticky Rice</name>
+        <price>1200</price>
+        <image>desserts/mango_sticky_rice.jpg</image>
+        <ingredients>Sweet coconut-infused sticky rice with fresh mango.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>36</id>
+        <name>Mochi Ice Cream Trio</name>
+        <price>1000</price>
+        <image>desserts/Mochi_IceCream.jpg</image>
+        <ingredients>Soft mochi stuffed with premium ice cream.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>37</id>
+        <name>mooncake</name>
+        <price>1000</price>
+        <image>desserts/mooncake.jpg</image>
+        <ingredients>Traditional Chinese pastries with rich fillings like lotus seed paste.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>38</id>
+        <name>Bingsu (Korean Shaved Ice)</name>
+        <price>1800</price>
+        <image>desserts/shaved_ice.jpg</image>
+        <ingredients>Fluffy shaved ice with fruit, red bean, and condensed milk.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>39</id>
+        <name>Yuzu Sorbet</name>
+        <price>325</price>
+        <image>desserts/yuzu_sorbet.jpg</image>
+        <ingredients> Refreshing citrus sorbet with a hint of tartness.</ingredients>
+        <type>dessert</type>
+    </item>
+    <item>
+        <id>40</id>
+        <name>Matcha Lava Cake</name>
+        <price>1200</price>
+        <image>desserts/macha_lava.jpg</image>
+        <ingredients>Rich green tea-infused lava cake baked with fresh  butter.</ingredients>
+        <type>dessert</type>
+    </item>
+
+
+</menu>

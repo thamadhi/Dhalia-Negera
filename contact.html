@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalia Negera</title>
+    <link rel="stylesheet" href="order1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    
+    <header class="header">
+        <a href="index2.html" class="logo">
+            <img src="tham_(Website).png" alt="dhalia negera logo">
+        </a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="order1.html">MENU</a></li>
+                <li><a href="index2.html#about-section">ABOUT US</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-container">
+                <input type="text" placeholder="search" id="search-input"  aria-label="for search">
+                
+                    <li class="fas fa-search" id="search-icon"></li>
+                <div class="suggestions" id="suggestions-list">
+                </div>
+             </div>
+    
+            <div id="icon-cart" onclick="toggleCart" class="cart-container">
+                <div class="fa-solid fa-cart-shopping">
+                    <span class="cart-item-count"></span>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Shopping Cart Sidebar -->
+<div class="cart-sidebar" id="cart-sidebar">  <!--carttab-->
+    <h2>Your Basket</h2>
+
+    <div id="cart-items"></div> <!--listcart-->
+    <div class="cart-summary">
+        <p class="subtotal" id="subtotal"></p>
+            <p class="service-charge" id="service-charge"></p>
+            <p class="total" id="cart-total"></p>
+    </div>
+    
+    <div class="cart-button">
+    <button id="checkout-btn">Check Out</button>
+    <button id="close-cart">Close</button>
+    </div>
+</div>
+
+
+    <div class="contact-section">
+
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+            <p>We consider all the drivers of change gives you the components you need <br> to change to create a truly happens.</p>
+        </div>
+    
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="input-group">
+                    
+                    <input type="text" id="name" placeholder="Enter your name"  aria-label="enter name">
+                    <span class="error" style="color:red;"></span>
+
+                    
+                    <input type="text" id="email" placeholder="Enter email address"  aria-label="Enter email">
+                    <span class="error" style="color:red;"></span>
+                </div>
+
+                
+                <input type="text" id="subject" placeholder="Write a subject"  aria-label="enter subject">
+                <span class="error" style="color:red;"></span>
+
+                
+                <textarea id="message" placeholder="Write your message"  aria-label="enter message"></textarea>
+                <span class="error" style="color:red;"></span>
+
+                <button type="submit" id="send-button">Send</button>
+            </form>
+
+            <div class="success-message" id="successMessage"  style="display: none;">
+                Message has been sent to Dhalia Negera. <br>We will get back to you shortly.
+            </div>
+        </div>
+
+    
+    </div>
+
+    <div class="contact-info">
+        
+        <div>
+            <h3>Call Us:</h3>
+            <p class="highlight">+94 76 820 3252</p>
+        </div>
+        <div>
+            <h3>Hours:</h3>
+            <p>Mon-Sun: 11am - 2.30pm <br> Sat, Sun: 9am - 10pm</p>
+        </div>
+        <div>
+            <h3>Our Location:</h3>
+            <p>Hortons place<br>3rd street, Colombo 7</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <section class="footer-section">
+            <div class="footer-container">
+                <a href="https://www.facebook.com" aria-label="go to facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com" aria-label="go to instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://web.whatsapp.com" aria-label="go to whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright &copy;2025 Dhalia Negera. All RIGHTS RESERVED.</p>
+    
+            </div>
+
+        </section>
+    </footer>
+    <script src="search.js"></script>
+    <script src="cart.js"></script>
+    <script src="contact.js"></script>
+</body>    

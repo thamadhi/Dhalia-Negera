@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhalia Negera - Menu</title>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+    <link rel="stylesheet" href="order1.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body class="showCart">
+
+
+    <header class="header">
+        
+        <a href="index2.html" class="logo">
+            <img src="tham_(Website).png" alt="dhalia negera logo">
+        </a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="order1.html">MENU</a></li>
+                <li><a href="index2.html#about-section">ABOUT US</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-container">
+                <input type="text" placeholder="search" id="search-input"  aria-label="for search">
+                
+                    <li class="fas fa-search" id="search-icon"></li>
+                <div class="suggestions" id="suggestions-list">
+                </div>
+             </div>
+
+        <div id="icon-cart" onclick="toggleCart" class="cart-container">
+            <div class="fa-solid fa-cart-shopping">
+                <span class="cart-item-count"></span>
+            </div>
+        </div>
+    </div>
+        
+
+    </header>
+    
+
+     <div class="menu" id="Menu">
+     <h1>Our Menu</h1>
+     <p>Welcome to Our Restaurant Step into a world of delightful flavors and warm hospitality.<br> Our menu is crafted to bring comfort and joy to your dining experience.</p>
+     </div>
+
+    <div class="wrapper">
+
+        <div id="buttons">
+            <button class="button-value" data-filter="ALL">ALL</button>
+            <button class="button-value" data-filter="POPULAR">POPULAR</button>
+            <button class="button-value" data-filter="APPETIZERS">APPETIZERS</button>
+            <button class="button-value" data-filter="MAINS" id="mains">MAINS</button>
+            <button class="button-value" data-filter="DRINKS">DRINKS</button>
+            <button class="button-value" data-filter="DESSERT">DESSERT</button>
+        </div>
+       
+    </div>
+
+    <div class="menu-container" id="menu-container"></div>
+    
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">  <!--carttab-->
+        <h2>Your Basket</h2>
+
+        <div id="cart-items"></div> <!--listcart-->
+        <div class="cart-summary">
+            <p class="subtotal" id="subtotal"></p>
+            <p class="service-charge" id="service-charge"></p>
+            <p class="total" id="cart-total"></p>
+        </div>
+        
+        <div class="cart-button">
+        <button id="checkout-btn">Check Out</button>
+        <button id="close-cart">Close</button>
+        </div>
+    </div>
+
+    <section class="offer-section">
+        <div class="offer-container">
+        <div class="offer-image">
+        <img src="page/Green_tacos.png" alt="seasonal">
+        </div>
+
+        <div class="offer-text">
+            <h2>10% Off Your First Seasonal Dish</h2>
+            <p>This season, indulge in the rich, aromatic flavors of our exclusive Vietnamese & Southeast Asian specials!</p>
+            <p> Only Available from April 1st – March 12th
+                <br> Hurry! These flavors won’t last forever!</p>
+        </div>
+        </div>
+        
+    </section>
+
+    <section class="food-delivery">
+        <div class="text-content">
+            <h2>Fastest Food Delivery in City</h2>
+            <p>Order Your Favorites Enjoy our delicious dishes from the comfort of your home. Order through your favorite delivery apps and let us bring the taste of our restaurant to you..</p>
+            <ul>
+                <li><i><span class="material-symbols-outlined">schedule</span></i> Delivery within 30 minutes</li>
+                <li><i><span class="material-symbols-outlined">news</span></i> Best Offer & Prices</li>
+                <li><i><span class="material-symbols-outlined">shopping_cart</span></i> Online Services Available</li>
+            </ul>
+        </div>
+
+        <div class="image-container">
+            <div class="big-image">
+            <img src="page/pexels-mikhail-nilov-8093598.jpg" alt="Chef Cooking" class="large-img">
+            </div>
+            <div class="small-images">
+                <div>
+                <img src="page/pexels-xmtnguyen-2591594.jpg" alt="Shrimp Dish">
+                </div>
+                <div>
+                <img src="page/pexels-mariacalosan-14072789.jpg" alt="BBQ Skewers">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="app-section">
+        <h2>You can order through apps</h2>
+        <p class="info">Bring Our Flavors Home Craving our delicious dishes?<br> Order through your favorite delivery apps and enjoy <br>the taste of our restaurant right at your doorstep.</p>
+        <div class="apps">
+            <div class="app-box"><img src="page/ubereats.png" alt=""></div>
+            <div class="app-box"><img src="page/postmates.png" alt=""></div>
+            <div class="app-box"><img src="page/doordash.png" alt=""></div>
+            <div class="app-box"><img src="page/deliveroo.png" alt=""></div>
+        </div>
+
+        <div class="reservation-section">
+            <div class="reservation-inline">
+            <h2>Want to reserve a table?</h2>
+            <a href="index2.html#reservation-contact" class="book-btn" >book a table</a>
+            </div>
+            <br>
+            <p>Book Your Table Ready for a delightful dining experience?<br> Reserve your table now and let us provide you with a warm <br>and welcoming atmosphere. We look forward to serving you!</p>
+        </div>
+    </section>
+    
+<footer>
+        <div class="footer-container">
+                <a href="https://www.facebook.com" aria-label="go to facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com" aria-label="go to instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://web.whatsapp.com" aria-label="go to whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2025 Dhalia Negera. All RIGHTS RESERVED.</p>
+
+        </div>
+</footer>
+  <script src="search.js"></script>
+  <script src="order.js"></script>
+</body>
+</html>
